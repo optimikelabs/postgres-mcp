@@ -1,3 +1,5 @@
+"""Patch pour intercepter l'exception BrokenResourceError du transport SSE."""
+
 import logging
 from importlib import import_module
 
