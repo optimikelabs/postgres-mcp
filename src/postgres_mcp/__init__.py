@@ -3,6 +3,7 @@ import sys
 
 from . import server
 from . import top_queries
+from .patch_sse import *  # noqa: F403
 
 
 def main():
